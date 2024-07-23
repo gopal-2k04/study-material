@@ -1,0 +1,62 @@
+body{
+  background-image: url(cse\ bg\ img.jpeg);
+  background-repeat: no-repeat;
+  background-size:cover ;
+  height: 100vh;
+}
+
+.cse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+  }
+  
+
+  .cse1{
+    font-size: 2rem;
+    display: grid;
+    place-content: center;
+    width: 200px;
+    height: 75px;
+    border-radius: 30px;
+    background-color: #ccc;
+    margin:  10px; 
+  }
+  h1{
+    background-color: rgba(0, 0, 0, 0.381);
+
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    background-color:rgba(0, 0, 0, 0.474);
+    color: wheat;
+    word-spacing: 1rem;
+    line-height: 3rem;
+    letter-spacing: 1rem;
+  }
+  .cse2{
+    width: 200px;
+    border: 2px solid #ccc;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.474);
+border-radius: 10px;
+    color: wheat;
+
+    background-color: rgba(0, 0, 0, 0.381);
+
+  }
+
+
+  .cse1:hover{
+    background-color: gold;
+    cursor: pointer;
+    transform: scale(1.2);
+
+  }
+  a{
+    text-decoration: none;
+    cursor: pointer;
+    transform: scale(1.2);
+  }

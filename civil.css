@@ -1,0 +1,59 @@
+body{
+
+  background-image: url(civil\ bg\ img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+
+.civil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+  }
+  
+  .civil1{
+    font-size: 2rem;
+    display: grid;
+    place-content: center;
+    width: 200px;
+    height: 75px;
+    border-radius: 30px;
+    background-color: #ccc;
+    margin:  10px; 
+  }
+  h1{
+    background-color: rgba(0, 0, 0, 0.381);
+
+    border: 2px solid #ccc;
+    background-color: rgba(0, 0, 0, 0.381);
+    border-radius: 20px;
+    color:whitesmoke;
+    text-align: center;
+    word-spacing: 1rem;
+    line-height: 3rem;
+    letter-spacing: 1rem;
+  }
+  h2{
+    background-color: rgba(0, 0, 0, 0.381);
+
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.381);
+
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    color:whitesmoke;
+    text-align: center;
+    word-spacing: 1rem;
+    line-height: 3rem;
+  }
+  .civil1:hover{
+    background-color: gold;
+
+  }
+  a{
+    text-decoration: none;
+  }

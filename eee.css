@@ -1,0 +1,57 @@
+body{
+  background-image: url(eee\ bg\ img.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+height: 100vh;
+}
+
+
+.eee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+  }
+  
+  .eee1{
+    font-size: 2rem;
+    display: grid;
+    place-content: center;
+    width: 200px;
+    height: 75px;
+    border-radius: 30px;
+    background-color: #ccc;
+    margin:  10px; 
+  }
+  h1{
+    background-color: rgba(0, 0, 0, 0.381);
+
+    border: 2px solid #ccc;
+    color: whitesmoke;
+    text-align: center;
+    word-spacing: 1rem;
+    line-height: 3rem;
+    letter-spacing: 1rem;
+  }
+  h2{
+    background-color: rgba(0, 0, 0, 0.381);
+
+    color: whitesmoke;
+    border: 2px solid #ccc;
+    width: 200px;
+    border-radius: 10px;
+
+    text-align: center;
+    word-spacing: 1rem;
+    line-height: 3rem;
+  }
+  .eee1:hover{
+    background-color: gold;
+    cursor: pointer;
+    transform: scale(1.2);
+
+  }
+  a{
+    text-decoration: none;
+  }

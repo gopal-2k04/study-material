@@ -1,0 +1,61 @@
+body{
+
+  background-image: url(ece\ bg\ img.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+
+
+
+.ece{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+  }
+  
+  .ece1{
+    font-size: 2rem;
+    display: grid;
+    place-content: center;
+    width: 200px;
+    height: 75px;
+    border-radius: 30px;
+    background-color: #ccc;
+    margin:  10px; 
+  }
+  h1{
+    background-color: rgba(0, 0, 0, 0.381);
+
+    border: 2px solid #ccc;
+    color: whitesmoke;
+    border-radius: 20px;
+    text-align: center;
+    word-spacing: 1rem;
+    line-height: 3rem;
+    letter-spacing: 1rem;
+  }
+  h2{
+    background-color: rgba(0, 0, 0, 0.381);
+
+    border: 2px solid #ccc;
+    color:whitesmoke;
+    border-radius: 10px;
+    width: 200px;
+
+    text-align: center;
+    word-spacing: 1rem;
+    line-height: 3rem;
+  }
+  .ece1:hover{
+    background-color: gold;
+    cursor: pointer;
+    transform: scale(1.2);
+
+  }
+  a{
+    text-decoration: none;
+  }
